@@ -15,28 +15,16 @@ const assignment = {};
  */
 let arrayOfNumbers = [0,10,020,22]
 
-// function sumOfNumbers(arrayOfNumbers) {
-//    let sum = 0;
-//   for (
-//     let i = 0;
-//     i < arrayOfNumbers.length;
-//     i++
-//   ) {
-//     sum = arrayOfNumbers[i] + sum;
-//   }
-// }
-
 function sumOfNumbers(arrayOfNumbers) {
-  let totalNumbers = 0;
+   let sum = 0;
   for (
-    let i=0;
-    i < arrayOfNumbers;
+    let i = 0;
+    i < arrayOfNumbers.length;
     i++
-      ) {
-    totalNumbers += arrayOfNumbers[i]
-      }
+  ) {
+    sum = arrayOfNumbers[i] + sum;
+  }
 }
-
 
 assignment.sumOfNumbers = sumOfNumbers;
 
